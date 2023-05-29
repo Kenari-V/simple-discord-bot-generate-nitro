@@ -29,9 +29,7 @@ async def generatediscord(ctx):
         all += nomber
 
         length = 16
-        # amount = noyangmauDimasukan
-        
-        # for x in range(int(noyangmauDimasukan)):
+
         nitrogen = ''.join(random.sample(all, length))
 
     await ctx.respond('discord.gift/'+nitrogen)           
